@@ -1,0 +1,81 @@
+.flex-container{
+    background-color: white;
+    min-height: 15%;
+}
+
+.flex-child {
+    margin-left: 180px;
+  }
+
+  h1{
+    color: grey;
+    position: absolute;
+  }
+
+  h3{
+    position: absolute;
+  }
+
+  #number {
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 10px; /* Adjust the spacing between number and title */
+  }
+
+  #number2{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 90px;
+    margin-bottom: 10px; /* Adjust the spacing between number and title */
+  }
+
+  .text {
+    position: absolute;
+    top: 20px;
+    margin-left: 160px;
+  }
+
+  .image{
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/ama-dablam-mountain-peak-view-from-chola-pass-royalty-free-image-1623254695.jpg');
+    min-height: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .schedule{
+    position: absolute;
+    top: 200px;
+    margin-left: 200px;
+    margin-right: 700px;
+    background-color: white;
+    background-size: cover;
+  }
+
+  .icon2 {
+    background-image: url('https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg');
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 250px;
+  }
+
+  .footer{
+    background-color: rgb(11, 46, 58);
+    min-height: 11%;
+  }
+
+  .text1{
+    margin-left: 10px;
+    display: inline-block;
+    color: grey;
+    position: absolute;
+    margin-top: 10px;
+  }
+
+  #cr{
+    margin-left: 600px;
+  }
+

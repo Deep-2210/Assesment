@@ -1,0 +1,96 @@
+/* Add this at the end of your existing CSS file */
+.flex-container {
+    background-image: url('https://www.upwork.com/catalog-images/79f7c9a9e1ee636a7b6cd58bc398dba0');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh; /* Ensures the background covers the full viewport height */
+    display: flex;
+    flex-direction: row; /* Set the direction to row */
+    align-items: top;
+    justify-content: left;
+  }
+  
+  #icon1{
+    background-image: url('https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg');
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: left; /* Center content vertically */
+  }
+
+  .icon2 {
+    background-image: url('https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/A-Alamy-BXWK5E_vvmkuf.jpg');
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: left;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: -36%;
+    margin-right: auto;
+    align-items: left;
+  }
+  
+  
+  #header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right: auto;
+  }
+  
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin-right: 200px;
+    margin-top: 30px;
+  }
+  
+  #h, #t {
+    font-size: small;
+    color: white;
+    margin: 5px;
+  }
+  
+  #fh, #ft {
+    font-size: small;
+    color: black;
+  }
+  
+  
+  .footer {
+    background-color: white;
+    min-height: 10vh;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex-container {
+      min-height: 100vh;
+      flex-direction: column;
+    }
+  
+    #header, .footer {
+      margin-right: 0;
+      font-size: medium;
+    }
+  }
+
+  
